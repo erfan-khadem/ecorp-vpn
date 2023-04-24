@@ -15,3 +15,6 @@ To build for a specific platform/arch, use `wails build -platform windows/amd64`
 
 ## Running
 After building the project, download sing-box and put it next to the executable (and change the name to be exactly `sing-box` or `sing-box.exe`). Then in linux run the `build/bin/ecorp-linux-first-time.sh` script. After that you may start the app in Administrator mode in windows and normal user (without sudo) in linux.
+
+## Screenshots
+![Main Menu](https://github.com/er888kh/ecorp-vpn/blob/main/screenshots/main-menu.png?raw=true)
