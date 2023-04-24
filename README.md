@@ -1,9 +1,5 @@
 # README
 
-## About
-
-This is the official Wails Svelte template.
-
 ## Live Development
 
 To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
@@ -14,3 +10,8 @@ to this in your browser, and you can call your Go code from devtools.
 ## Building
 
 To build a redistributable, production mode package, use `wails build`.
+To build for a specific platform/arch, use `wails build -platform windows/amd64`
+
+
+## Running
+After building the project, download sing-box and put it next to the executable (and change the name to be exactly `sing-box` or `sing-box.exe`). Then in linux run the `build/bin/ecorp-linux-first-time.sh` script. After that you may start the app in Administrator mode in windows and normal user (without sudo) in linux.
