@@ -104,7 +104,7 @@ func (a *App) startup(ctx context.Context) {
 	}
 	if stat.Size() == 0 {
 		a.appConfigFile.Seek(0, 0)
-		a.appConfigFile.WriteString("{[]}")
+		a.appConfigFile.WriteString("{\"subscriptions\": []}")
 	}
 }
 
